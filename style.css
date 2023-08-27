@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background: url(images/parc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  height: 600px;
+  width: 440px;
+  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
+  background: url(images/pla.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: .4s ease;
+  cursor: pointer;
+  border-radius: 19px;
+}
+h1 {
+  color: red;
+  letter-spacing: 4px;
+  background: #eaaf0f;
+}
+
+.container:hover {
+  background: url(images/space-planet-earth-stars-universe.jpg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border: 3px solid aqua;
+  border-radius: 19px;
+}
+h1:hover {
+  color: blue;
+  background: #2bf64d;
+}
